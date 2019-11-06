@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.header {
+    text-align: center;
+    opacity: 0.7;
+}
+
+.content {
+    margin-right: 10%;
+    margin-left: 10%;
+    opacity: 0.8;
+    background-image: url("Images/cacti3.jpg");
+    background-repeat: none;
+    height: 1000px;
+}
+
+.content-block {
+    display: inline-block;
+    height: 275px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    overflow-inline: hidden;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.content-block p, h4, li {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 1.0 !important;
+}
+
+#buyButton {
+    visibility: hidden;
+}
